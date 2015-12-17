@@ -1,0 +1,24 @@
+{
+  "name": "my-gulp-project",
+  "version": "1.0.0",
+  "description": "gulp 入门",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chenlianjiang/my-gulp-project.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "chenlj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenlianjiang/my-gulp-project/issues"
+  },
+  "homepage": "https://github.com/chenlianjiang/my-gulp-project#readme"
+}
