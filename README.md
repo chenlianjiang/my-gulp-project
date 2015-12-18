@@ -93,8 +93,9 @@ run：执行任务
 
 - [Gulp安装及配合组件构建前端开发一体化][1]
 - [gulp中文网][2]
-
+- [Gulp开发教程][4]
 
 [1]: http://www.dbpoo.com/getting-started-with-gulp/
 [2]: http://www.gulpjs.com.cn
 [3]: http://gulpjs.com/plugins/
+[4]: http://www.w3ctech.com/topic/134
