@@ -1,3 +1,3 @@
 (function() {
-  alert('hello grunt');
-})()
+  // alert('hello grunt');
+})();

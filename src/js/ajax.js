@@ -41,4 +41,4 @@
  * });
  */
 
-var createXHR = window.XMLHttpRequest;
+// var createXHR = window.XMLHttpRequest;

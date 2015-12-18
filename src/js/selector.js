@@ -37,7 +37,7 @@
  *	$('input[name=uname]', '#id')
  */
 
-function $(selector,context) {
-	var s = selector, doc = document;
-	
-}
+// function name(selector,context) {
+// 	var s = selector, doc = document;
+//
+// }

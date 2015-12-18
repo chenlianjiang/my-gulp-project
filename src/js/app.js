@@ -1,4 +1,4 @@
 (function(){
-    alert('app');
+    // alert('app');
     console.log('hello world');
-})()
+})();

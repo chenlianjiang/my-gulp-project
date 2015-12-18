@@ -4,4 +4,4 @@
 	document.write('<p>------common from js file-----</p>');
 
 
-})()
+})();
