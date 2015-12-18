@@ -36,6 +36,34 @@ $gulp
 ```
 $npm install  gulp-imagemin --save-dev
 ```
+## 项目目录结构
+
+  project(项目名称)
+  |–.git 通过git管理项目会生成这个文件夹
+  |–node_modules 组件目录
+  |–dest 发布环境
+      |–css 样式文件(style.css style.min.css)
+      |–images 图片文件(压缩图片)
+      |–js js文件(main.js main.min.js)
+      |–index.html 静态文件(压缩html)
+  |–src 生产环境
+      |–sass sass文件
+      |–images 图片文件
+      |–js js文件
+      |–index.html 静态文件
+  |–.jshintrc jshint配置文件
+  |–gulpfile.js gulp任务文件
+  |–package.json 项目配置文件
+
+## gulp基础语法
+
+gulp通过gulpfile文件来完成相关任务，因此项目中必须包含gulpfile.js
+
+gulp有五个方法：src、dest、task、run、watch
+src和dest：指定源文件和处理后文件的路径
+watch：用来监听文件的变化
+task：指定任务
+run：执行任务
 
 # 参考资料
 [Gulp安装及配合组件构建前端开发一体化][1]
