@@ -17,3 +17,8 @@ $npm install
 ```
 $gulp
 ```
+
+# 参考资料
+[Gulp安装及配合组件构建前端开发一体化][1]
+
+[1]: http://www.dbpoo.com/getting-started-with-gulp/
