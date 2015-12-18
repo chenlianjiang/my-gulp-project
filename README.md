@@ -1,5 +1,5 @@
-# my-gulp-project
-gulp 入门
+# gulp 入门
+
 ## 获取
 
 ```
@@ -18,7 +18,7 @@ $npm install
 $gulp
 ```
 
-## gulp plugins，寻找对于的gulp组件
+## gulp plugins
 
 - gulp-imagemin: 压缩图片
 - gulp-ruby-sass: 支持sass
@@ -36,6 +36,7 @@ $gulp
 ```
 $npm install  gulp-imagemin --save-dev
 ```
+
 ## 项目目录结构
 
   project(项目名称)
