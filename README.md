@@ -21,6 +21,10 @@ $gulp
 
 要运行单独的任务，请使用 gulp <task> <othertask>。
 
+## API文档
+
+查看：https://github.com/gulpjs/gulp/blob/master/docs/API.md
+
 ## gulp plugins
 
 可用插件 请到这里：[http://gulpjs.com/plugins/][3] 搜索
@@ -41,7 +45,15 @@ $gulp
 - gulp-remember - pairs nicely with gulp-cached
 - gulp-newer - pass through newer source files only, supports many:1 source:dest
 
-
+## 安装gulp
+1、全局安装
+```
+$ npm install -g gulp
+```
+2、项目开发依赖中安装 gulp
+```
+$npm install  gulp --save-dev
+```
 ## 添加插件
 
 ```
@@ -78,8 +90,9 @@ task：指定任务
 run：执行任务
 
 # 参考资料
-[Gulp安装及配合组件构建前端开发一体化][1]
-[gulp中文网][2]
+
+- [Gulp安装及配合组件构建前端开发一体化][1]
+- [gulp中文网][2]
 
 
 [1]: http://www.dbpoo.com/getting-started-with-gulp/
