@@ -12,13 +12,18 @@ git clone https://github.com/chenlianjiang/my-gulp-project.git
 $npm install
 ```
 
-## 使用
+## 运行gulp
 
 ```
 $gulp
 ```
+默认的任务将会启动。
+
+要运行单独的任务，请使用 gulp <task> <othertask>。
 
 ## gulp plugins
+
+可用插件 请到这里：[http://gulpjs.com/plugins/][3] 搜索
 
 - gulp-imagemin: 压缩图片
 - gulp-ruby-sass: 支持sass
@@ -30,6 +35,12 @@ $gulp
 - gulp-htmlmin: 压缩html
 - gulp-clean: 清空文件夹
 - gulp-livereload: 服务器控制客户端同步刷新（需配合chrome插件LiveReload及tiny-lr）
+
+- gulp-changed - only pass through changed files
+- gulp-cached - in-memory file cache, not for operation on sets of files
+- gulp-remember - pairs nicely with gulp-cached
+- gulp-newer - pass through newer source files only, supports many:1 source:dest
+
 
 ## 添加插件
 
@@ -68,5 +79,9 @@ run：执行任务
 
 # 参考资料
 [Gulp安装及配合组件构建前端开发一体化][1]
+[gulp中文网][1]
+
 
 [1]: http://www.dbpoo.com/getting-started-with-gulp/
+[2]: http://www.gulpjs.com.cn
+[3]: http://gulpjs.com/plugins/
