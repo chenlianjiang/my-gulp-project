@@ -79,7 +79,7 @@ run：执行任务
 
 # 参考资料
 [Gulp安装及配合组件构建前端开发一体化][1]
-[gulp中文网][1]
+[gulp中文网][2]
 
 
 [1]: http://www.dbpoo.com/getting-started-with-gulp/
